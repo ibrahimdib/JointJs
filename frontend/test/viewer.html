@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The JointJS Finite State Machines demo serves as a template to help bring your idea to life in no time.">
+
+    <title>Finite State Machines | JointJS</title>
+
+    <link rel="stylesheet" type="text/css" href="../../node_modules/jointjs/dist/joint.css" />
+    <link rel="stylesheet" type="text/css" href="css/test.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+</head>
+
+<body bgcolor="gray">
+
+
+    <div id="mainPaper">
+        <div class="btn-group">
+            <button class="btn btn-primary" id="prevCabinet"> < Cabinet </button>
+            <button class="btn btn-primary" id="nextCabinet"> > Cabinet </button>
+        </div>
+        <div id="paper1"></div>
+    </div>
+    
+
+    <div class="buttons-section">
+
+
+
+        <button class="button" id="save-as-image" > save </button>
+        <button class="button" id="load"> load </button>
+        <button class="button" > <a href="./" id="viewer">back</a> </button>
+     
+
+
+    </div>
+    <div id="tooltip"
+        style="display: none; position: absolute; background-color: #f9f9f9; border: 1px solid #ccc; padding: 10px;">
+    </div>
+
+
+    <!-- Dependencies: -->
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/lodash/lodash.js"></script>
+    <script src="../../node_modules/backbone/backbone.js"></script>
+ 
+
+
+
+    <script src="../../node_modules/jointjs/dist/joint.min.js"></script>
+    <script src="../../node_modules/jointjs/dist/joint.js"></script>
+
+
+
+    <script src="src/viewer.js"></script>
+
+
+
+    <script src="../../node_modules/jointjs/dist/joint.layout.DirectedGraph.js"></script>
+
+
+
+
+
+</body>
+
+</html>

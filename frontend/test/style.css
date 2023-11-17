@@ -1,0 +1,68 @@
+#mainPaper {
+    background-color: black;
+    display: flex;
+
+}
+
+#paper {
+
+    background-color: gray;
+}
+
+#paper1 {
+
+    background-color: Navy;
+
+
+}
+
+/* Basic button styling */
+.button {
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 100px;
+    font-size: 14px;
+    border: 1px solid #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #c9302c;
+}
+
+/* Additional styling for an icon inside the button */
+.button i {
+    margin-right: 5px;
+}
+
+.buttons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Optional: Align buttons in the center */
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#viewer{
+
+    color : white;
+    text-decoration: none;
+}

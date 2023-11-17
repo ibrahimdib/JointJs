@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The JointJS Finite State Machines demo serves as a template to help bring your idea to life in no time.">
+
+    <title>Finite State Machines | JointJS</title>
+
+    <link rel="stylesheet" type="text/css" href="../../node_modules/jointjs/dist/joint.css" />
+    <link rel="stylesheet" type="text/css" href="css/test.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+
+
+</head>
+
+<body bgcolor="gray">
+
+
+    <div id="mainPaper">
+
+
+        <div id="paper"></div>
+
+        <div id="paper1"></div>
+    </div>
+
+    <div class="buttons-section">
+
+        <button class="button" id="delete"> Delete Node</button>
+        <button class="button" id="unembed"> Unembed </button>
+
+        <button class="button" id="undo-button">Undo</button>
+        <button class="button" id="redo-button"> Redo</button>
+
+        <button class="button" id="save" > save </button>
+        <button class="button" id="load"> load </button>
+        <button class="button" id="xml-save" > xml save </button>
+        <button class="button" id="xml-load">  xml load </button>
+        <button class="button" > <a href="viewer.html" id="viewer" >viewer</a> </button>
+
+
+    </div>
+    <div id="tooltip"
+        style="display: none; position: absolute; background-color: #f9f9f9; border: 1px solid #ccc; padding: 10px;">
+    </div>
+
+
+    <!-- Dependencies: -->
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/lodash/lodash.js"></script>
+    <script src="../../node_modules/backbone/backbone.js"></script>
+    <script src=""></script>
+
+
+
+    <script src="../../node_modules/jointjs/dist/joint.min.js"></script>
+    <script src="../../node_modules/jointjs/dist/joint.js"></script>
+
+
+
+    <script src="src/physicalConf.js"></script>
+    <script src="src/actions.js"></script>
+    <script src="src/collapse.js"></script>
+    <script src="src/save-load.js"></script>
+ 
+
+    <script src="../../node_modules/jointjs/dist/joint.layout.DirectedGraph.js"></script>
+
+
+
+
+
+</body>
+
+</html>
